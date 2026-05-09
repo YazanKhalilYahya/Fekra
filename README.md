@@ -1,36 +1,96 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Fekra — Digital Agency Landing Page
+
+A premium bilingual agency landing page built with Next.js.  
+This project showcases a modern frontend experience with responsive design, Arabic and English content support, animated sections, a mobile navigation menu, and a polished dark visual style.
+
+## Overview
+
+Fekra is a portfolio-ready frontend project designed as a modern digital agency website.  
+It was built to practice and demonstrate real-world Next.js frontend skills, including reusable components, responsive layouts, smooth interactions, and production-style UI structure.
+
+## Features
+
+- Responsive design for mobile, tablet, and desktop
+- Bilingual interface with Arabic and English content
+- Modern hero section with animated visual layout
+- Responsive navbar with mobile menu
+- Services, work, process, and contact sections
+- Footer with social media icons and contact details
+- Smooth in-page navigation with anchor links
+- Accessibility improvements such as skip link support
+- Metadata setup for better SEO and sharing readiness
+
+## Tech Stack
+
+- Next.js
+- React
+- CSS Modules
+- Framer Motion
+- JavaScript
+
+## Project Structure
+
+```bash
+src/
+  app/
+    globals.css
+    layout.js
+    page.js
+  components/
+    home/
+      Hero.jsx
+      Hero.module.css
+      Services.jsx
+      Work.jsx
+      Process.jsx
+      WhyUs.jsx
+      ContactCTA.jsx
+      Section.module.css
+    shared/
+      Navbar.jsx
+      Navbar.module.css
+      Footer.jsx
+      Footer.module.css
+  data/
+    siteContent.js
+```
 
 ## Getting Started
 
-First, run the development server:
+Clone the repository and install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Customization
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+You can easily customize the project by editing:
 
-## Learn More
+- `src/data/siteContent.js` for Arabic and English content
+- `src/components/shared/Footer.jsx` for social media links
+- `src/app/layout.js` for metadata
+- component CSS files for layout and visual styling
 
-To learn more about Next.js, take a look at the following resources:
+## What I Practiced
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project helped me practice:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Building with the Next.js App Router
+- Organizing a scalable component-based frontend structure
+- Creating responsive layouts with CSS Modules
+- Handling bilingual content in a clean way
+- Improving UI polish for portfolio presentation
+- Adding accessibility and navigation enhancements
 
-## Deploy on Vercel
+## License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is for portfolio and educational use.
